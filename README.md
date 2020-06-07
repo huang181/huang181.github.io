@@ -1,37 +1,6 @@
-## Welcome to GitHub Pages
+Templete來源： https://templated.co/spatial
 
-You can use the [editor on GitHub](https://github.com/huang181/huang181.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/huang181/huang181.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+在這次的作業中參考了老師提供的樣本，加上考慮未來的實用性及網站的便利性，故採取中英各半的文字記錄方式。
+由於自己目前還沒有什麼特別的經歷，且目前的技巧還不是很熟練、暫時也還沒有其他作品可以放置連結，所以多增加課後活動的部分，希望能讓閱讀者更理解自己。
+本次選擇的模板中，原先並沒有「聯絡」的頁面，但是作者有設計相關的程式碼，故在尋找後適當修改做使用。
+除了內容外，在編排上也有做小部分的更動，如更換按鈕的功能及連結、排版的修改等等。
