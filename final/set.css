@@ -4,10 +4,24 @@ img#background {
     background-attachment: scroll;
 }
 
-button#test {
+h1 {
     position: absolute;
-    right: 15px;
-    top: 20px;
+    top: 300px;
+    right: 600px;
+    color: white;
+    font-size: xxx-large;
+}
+
+h4#topp {
+    position: absolute;
+    top: 400px;
+    right: 575px;
+    color: white;
+    font-size: large;
+}
+
+button {
+    position: absolute;
     background-color: #201e2500;
     color: #ffffff;
     border: 0;
@@ -22,20 +36,149 @@ button#test {
     white-space: nowrap;
 }
 
-button#record {
-    position: absolute;
-    right: 100px;
+button#test {
+    right: 15px;
     top: 20px;
-    background-color: #201e2500;
-    color: #ffffff;
-    border: 0;
-    cursor: pointer;
-    display: inline-block;
-    font-weight: 700;
-    font-size: large;
-    height: 3.15em;
-    line-height: 3.25em;
-    padding: 0 2.2em;
-    text-align: center;
-    white-space: nowrap;
+}
+
+button#record {
+    right: 150px;
+    top: 20px;
+}
+
+button#page {
+    right: 150px;
+    top: 20px;
+}
+
+h2 {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    color: white;
+}
+
+h4#tp {
+    position: absolute;
+    top: 70px;
+    left: 40px;
+    color: white;
+    font-size: small;
+}
+
+p {
+    color: white;
+    position: absolute;
+    left: 40px;
+}
+
+p#top1 {
+    top: 130px;
+    font-size: medium;
+}
+
+p#date1 {
+    top: 155px;
+    font-size: small;
+}
+
+p#top2 {
+    top: 200px;
+    font-size: medium;
+}
+
+p#date2 {
+    top: 225px;
+    font-size: small;
+}
+
+p#top3 {
+    top: 270px;
+    font-size: medium;
+}
+
+p#date3 {
+    top: 295px;
+    font-size: small;
+}
+
+p#top4 {
+    top: 340px;
+    font-size: medium;
+}
+
+p#date4 {
+    top: 365px;
+    font-size: small;
+}
+
+p#top5 {
+    top: 410px;
+    font-size: medium;
+}
+
+p#date5 {
+    top: 435px;
+    font-size: small;
+}
+
+hr {
+    position: absolute;
+    top: 115px;
+    left: 30px;
+}
+
+button#web1 {
+    top: 130px;
+    left: 160px;
+}
+
+button#web2 {
+    top: 200px;
+    left: 160px;
+}
+
+button#web3 {
+    top: 270px;
+    left: 160px;
+}
+
+button#web4 {
+    top: 340px;
+    left: 160px;
+}
+
+button#web5 {
+    top: 410px;
+    left: 160px;
+}
+
+p#top1 {
+    top: 130px;
+    font-size: medium;
+}
+
+img#q1 {
+    position: absolute;
+    left: 40px;
+    top: 180px;
+}
+
+p#q1 {
+    top: 550px;
+    font-size: medium;
+}
+
+button#fin {
+    background-color: rgb(84, 100, 92);
+    position: absolute;
+    left: 600px;
+    top: 700px;
+}
+
+h3#result {
+    color: white;
+    position: absolute;
+    left: 550px;
+    top: 800px;
 }
