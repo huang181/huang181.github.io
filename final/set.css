@@ -1,0 +1,41 @@
+img#background {
+    background-color: rgb(84, 100, 92);
+    filter: contrast(0.35);
+    background-attachment: scroll;
+}
+
+button#test {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    background-color: #201e2500;
+    color: #ffffff;
+    border: 0;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    font-size: large;
+    height: 3.15em;
+    line-height: 3.25em;
+    padding: 0 2.2em;
+    text-align: center;
+    white-space: nowrap;
+}
+
+button#record {
+    position: absolute;
+    right: 100px;
+    top: 20px;
+    background-color: #201e2500;
+    color: #ffffff;
+    border: 0;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    font-size: large;
+    height: 3.15em;
+    line-height: 3.25em;
+    padding: 0 2.2em;
+    text-align: center;
+    white-space: nowrap;
+}
