@@ -11,22 +11,19 @@
 
 <body onload="load(); test()">
     <img src="background.JPG" width="100%" id="background">
+    <button onclick="self.location.href='index.html'" id="test">首頁</button>
+    <h2 font color="white">小測驗</h2>
+    <h4 id="tp">請根據圖片選出正確的名字</h4>
+    <hr width="90%">
+    <img src="block.png" alt="" id="block">
     <form>
         <table width="95%">
-            <tr>
-                <td><label id="countMsg">答對 0 題，答錯 0 題！</label>
-            </tr>
-            <tr>
-                <td><label>------------------------------------</label>
-            </tr>
+
+
             <tr>
                 <td>
-                    <label id="question">詞彙</label> &nbsp; &nbsp; &nbsp;
-                    <audio id="audio_correct" src="http://translate.google.com/translate_tts?ie=utf-8&tl=zh&q=答對了"></audio>
-                    <audio id="audio_error" src="http://translate.google.com/translate_tts?ie=utf-8&tl=zh&q=答錯了"></audio>
-                    <audio id="audio" src="http://translate.google.com/translate_tts?ie=utf-8&tl=en&q=mother"></audio>
-                    <audio id="audio_zh" src="http://translate.google.com/translate_tts?ie=utf-8&tl=zh&q=媽媽"></audio>
-                    <input type="button" onclick="playAudio('audio')" value="發音"> &nbsp; &nbsp; &nbsp; <input type="checkbox" id="isAudio"> 答完後自動念答案！<input type="checkbox" id="isSwap" onchange="test()">問答交換
+                    <label id="question"></label> <br>
+                    <img src="photo/三葉五家.png" alt="" id="questpic">
                     <ol>
                         <li><a id="answer1" onclick="chooseA(this)">答案1</a></li>
                         <li><a id="answer2" onclick="chooseA(this)">答案2</a></li>
@@ -36,19 +33,27 @@
                 </td>
             </tr>
             <tr>
-                <td><label>你選的答案是：</label><label id="choice">?</label></td>
-            </tr>
-            <tr>
-                <td><label id="msg">正確的答案是：?</label></td>
+                <td><label>你的答案是：</label><label id="choice">?</label></td>
             </tr>
             <tr>
                 <td><label>------------------------------------</label>
             </tr>
             <tr>
+                <td><label id="msg"></label></td>
+            </tr>
+            <tr>
                 <td>
-                    <input type="button" value="送出答案" onclick="pass()" /><br />
+                    <input type="button" value="送出答案" onclick="check()" id="deliver" /> &nbsp; &nbsp; &nbsp;
+                    <input type="button" value="下一題" onclick="test()" id="next" /><br />
                 </td>
             </tr>
+            <tr>
+                <td><label>------------------------------------</label>
+            </tr>
+            <tr>
+                <td><label id="countMsg"></label>
+            </tr>
+
         </table>
     </form>
 
