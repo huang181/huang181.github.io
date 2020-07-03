@@ -36,7 +36,7 @@ function chooseA(obj) {
 function test() {
     choice.innerHTML = "?";
     q = Q();
-    questpic.src = `huang181/huang181.github.io/blob/master/final/photo/${q}.PNG`;
+    questpic.src = `photo/${q}.PNG`;
     var set = {};
     for (i = 1; i <= 4;) {
         a = Q();
